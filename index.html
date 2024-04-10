@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xml-parse</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="btn-box">
+        <p>可上传xml/text文件进行解析</p>
+        <input type="file" class="upload-btn" accept=".txt, .xml" value="上传文件(text/xml)">
+        <br/>
+        <button class="parse-btn">解析</button>
+    </div>
+
+    <div class="code-box">
+        xml-code:
+        <div class="xml-code" contenteditable></div>
+    </div>
+
+    <div class="parse-box">
+        xml-tree:
+        <div class="parse-text"></div>
+    </div>
+    <script src="./js/index.js" type="module"></script>
+</body>
+</html>

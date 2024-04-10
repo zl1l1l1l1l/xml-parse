@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-box,
+.code-box,
+.parse-box {
+    display: block;
+    width: 500px;
+    margin: 20px auto;
+}
+.xml-code,
+.parse-text {
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    border: 1px solid;
+    overflow-y: auto;
+}
